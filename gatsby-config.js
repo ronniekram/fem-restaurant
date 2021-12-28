@@ -1,16 +1,10 @@
 module.exports = {
 	siteMetadata: {
-		title: `Actual Size Starter`,
-		description: `Built by 👾 in Pittsburgh, PA.`,
-		author: `@actualsize`,
+		title: `Frontend Mentor Restaurant`,
+		description: `Built by @ronniekram in Pittsburgh, PA.`,
+		author: `@ronniekram`,
 	},
 	plugins: [
-		{
-			resolve: `gatsby-plugin-emoji-favicon`,
-			options: {
-				emoji: `🚧`,
-			},
-		},
 		`gatsby-plugin-image`, // https://www.gatsbyjs.com/plugins/gatsby-plugin-image
 		`gatsby-plugin-sharp`,
 		`gatsby-transformer-sharp`,
